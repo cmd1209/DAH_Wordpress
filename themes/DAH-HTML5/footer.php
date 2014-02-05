@@ -13,7 +13,11 @@
 				<p class="copyright">
 					&copy; <?php echo date("Y"); ?> Copyright <?php bloginfo('name'); ?>
 				</p>
+<<<<<<< HEAD
 				<p>master changes ha ha ha</p>
+=======
+				<p>bonjour!</p>
+>>>>>>> 44f20fd1038fd20745229e15f9577c188e3cd3e3
 				</div>
 	
 			</footer>
