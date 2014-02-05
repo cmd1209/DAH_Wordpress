@@ -1,0 +1,1212 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"important"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"bac",
+				"backgroundColor"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"slid",
+				"slideshow"
+			],
+			[
+				"de",
+				"delay"
+			],
+			[
+				"part",
+				"partyshow"
+			],
+			[
+				"slide",
+				"slideshow"
+			],
+			[
+				"party",
+				"partybutton"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"p",
+				"padding	padding: T R B L"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"left",
+				"left"
+			],
+			[
+				"rg",
+				"rgba"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"rox",
+				"roxyfilm"
+			],
+			[
+				"righ",
+				"rightnav"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2colsinglepost.php",
+			"settings":
+			{
+				"buffer_size": 1534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page.php",
+			"settings":
+			{
+				"buffer_size": 2267,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "museum-template.php",
+			"settings":
+			{
+				"buffer_size": 1567,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 11132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/typo.scss",
+			"settings":
+			{
+				"buffer_size": 3943,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: en	",
+				"Snippet: <?php echo htmlentities(…) ?>"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"cd packages/",
+			"cd Packages/",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/single.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/sidebar.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/sass/style.scss",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/museum-template.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/css/style.css",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/style.css",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/search.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/category.php",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/js/scripts.js",
+		"/Users/chad/Dropbox/Work/DAH Wordpress/wp-content/themes/DAH-HTML5/2colsinglepost.php",
+		"/Users/chad/Desktop/test.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/english.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.restaurant.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.presse.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.bildung.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.sammlung.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/film.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/tour.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/museum.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kindermuseum.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/includes/topnav.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.kontakt.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/months/januar.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/programm.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/service.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/presse.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kontakt.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Advent.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/site.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/index.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/months/april.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/besucherinfo.php",
+		"/Users/chad/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Rundgang.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/months/maerz.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/globale.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/australien.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu2.php",
+		"/Users/chad/Desktop/newsletter.html",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/accordion.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/veranstaltungen.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/links.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.neu.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/restaurant.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.australien.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/australien-neu.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/events.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/traveldiary.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/ferien.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/includes/footer.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/tuerkische_migration.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.work_traveller.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.Bibliothek.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/includes/en.footer.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/bildung.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/work_traveller.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/neu3.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Bibliothek.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/shop.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.shop.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.service.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jcalendar/css/dp_calendar.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Bibliothek .php",
+		"/Users/chad/Dropbox/Work/EHM/EHM.sublime-project",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/en.news.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/reisetagebuch.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/form.css",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/process.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/form.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/diaspora.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/DAH.sublime-workspace",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/poetry.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/accord.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kultur.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/films.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/news.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/Inglisch.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/muttertag.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/jquery.js",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sonderausstellungen.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/sammlung.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/familienrecherche.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/papiere.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/.htaccess",
+		"/Users/chad/Dropbox/Work/EHM/starkers-master/style.css",
+		"/Users/chad/Downloads/colour-schemes-master/Userscape.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/TronLight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/TronLegacy.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Tron.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Stark.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Spearmint.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Sourlick.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/SnappyLight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Snappy.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Slime.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Revelation.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/README.md",
+		"/Users/chad/Downloads/colour-schemes-master/Potpourri.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Peacock.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Patriot.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/NaturalContrast.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Mellow.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Lavender.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/LastNight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/LaravelDarker.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Laravel.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Iceberg.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Grunge.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Goldfish.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Glowfish.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Gloom.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Github.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Frontier.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/FreshCut.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/EarthsongLight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Earthsong.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Darkside.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/CarbonightBlue.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Carbonight.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/BoxUK.tmTheme",
+		"/Users/chad/Downloads/colour-schemes-master/Yule.tmTheme",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/walz.php",
+		"/Users/chad/Dropbox/Work/EHM Opening 2015/style.css",
+		"/Users/chad/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/DAH.sublime-project",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/FrauenHandel.php",
+		"/Users/chad/Dropbox/Work/DAH 2.0 Dropbox/Publish/kinderwettbewerb.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Kombiticket",
+			"museumspass",
+			"UR",
+			"kindergeburtstage",
+			"Eintritt Schüler",
+			"gruppen",
+			"table",
+			"<td></td>",
+			"03",
+			"März",
+			"2",
+			"Februar",
+			"Januar",
+			"1",
+			"November",
+			"2013",
+			"    ",
+			"                  ",
+			"julian",
+			"@",
+			"ü",
+			"5",
+			"3",
+			"09",
+			"Oktober",
+			"29",
+			"08",
+			"09",
+			"Vertrieb",
+			"hope",
+			"p",
+			"8",
+			"month08",
+			"18",
+			"253",
+			"450",
+			"8,60",
+			"16px",
+			"height=\"auto\"",
+			"Tag",
+			"slideshow",
+			"Slideshow",
+			"slideshow",
+			"Slideshow",
+			"slideshow",
+			"Slideshow",
+			"slideshow",
+			"Slideshow",
+			"slideshow",
+			"0",
+			"h2",
+			"3",
+			"ccc",
+			"115",
+			"125px",
+			"150",
+			"110",
+			"110px",
+			"125",
+			"150px",
+			"1",
+			"€",
+			"250",
+			"300",
+			"450",
+			"€",
+			"<div><img src=\"art/slideshow/dah05.jpg\" alt=\"Slideshow Image 5\" /></div>",
+			"20px",
+			"300",
+			"300px",
+			"300",
+			"style=\"margin-bottom: 20px;\"",
+			"EUR",
+			"€",
+			">\n",
+			"span",
+			"€",
+			"EUR",
+			"06",
+			"05",
+			"0501",
+			"04",
+			"germantown",
+			"06",
+			"0701",
+			"06",
+			"span",
+			"<span class=\"date\">Sonntag, 21. Juli 2013, 15.00 Uhr im Deutschen Auswandererhaus Bremerhaven</span>",
+			"Mai",
+			"05",
+			"fitkau",
+			"    ",
+			"   ",
+			"  ",
+			"20px",
+			"100px",
+			"31.",
+			"28.",
+			"000000",
+			"€",
+			"<div id=\"rightnav\" > \n    <ul>\n      <li><a id=\"veranstaltungen\" href=\"veranstaltungen.html\">Veranstaltungen</a></li>\n      <li><a id=\"Familienrecherche\" href=\"familienrecherche.html\">Familienrecherche</a></li>\n      <li><a id=\"Bildung\" href=\"bildung.html\">Bildung</a></li>\n      <li><a id=\"Service\" href=\"service.html\">Service</a></li>\n      <li><a id=\"presse\" href=\"presse.html\">Presse</a></li>\n     <!--<li>\n        <form method=\"get\" action=\"/search\" id=\"search\">\n         <input name=\"q\" type=\"text\" size=\"40\" placeholder=\"Suchen...\" />\n        </form>\n      </li>-->\n    </ul>\n  </div>",
+			"CDA869",
+			"9B703F",
+			"background",
+			"dp_calendar_wrapper",
+			"dp_calendar",
+			"articlecontainer",
+			"leftnav",
+			"1180",
+			"1140"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"ü",
+			"EUR",
+			"Euro",
+			"EUR",
+			"fittkau",
+			"d1942d",
+			"ba6f1a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1021,
+								1021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2colsinglepost.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1052,
+								1052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "page.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1911,
+								1911
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 453.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "museum-template.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								759,
+								759
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 129.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7037,
+								7037
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6952.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "sass/typo.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2814,
+								2814
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.6353515625,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"pag",
+				"page.php"
+			],
+			[
+				"sin",
+				"single.php"
+			],
+			[
+				"mus",
+				"museum-template.php"
+			],
+			[
+				"",
+				"2colsinglepost.php"
+			],
+			[
+				"h",
+				"header.php"
+			],
+			[
+				"st",
+				"sass/style.scss"
+			],
+			[
+				"besu",
+				"besucherinfo.php"
+			],
+			[
+				"neu",
+				"neu.php"
+			],
+			[
+				"kind",
+				"kindermuseum.php"
+			],
+			[
+				"veran",
+				"veranstaltungen.php"
+			],
+			[
+				"en.bi",
+				"en.bildung.php"
+			],
+			[
+				"bild",
+				"bildung.php"
+			],
+			[
+				"inf",
+				"besucherinfo.php"
+			],
+			[
+				"eng",
+				"english.php"
+			],
+			[
+				"in",
+				"index.php"
+			],
+			[
+				"en.sa",
+				"en.sammlung.php"
+			],
+			[
+				"en.pr",
+				"en.presse.php"
+			],
+			[
+				"en.r",
+				"en.restaurant.php"
+			],
+			[
+				"en",
+				"english.php"
+			],
+			[
+				"info",
+				"besucherinfo.php"
+			],
+			[
+				"adv",
+				"Advent.php"
+			],
+			[
+				"s",
+				"site.css"
+			],
+			[
+				"fil",
+				"film.php"
+			],
+			[
+				"tour",
+				"tour.php"
+			],
+			[
+				"ru",
+				"Rundgang.html"
+			],
+			[
+				"mu",
+				"museum.php"
+			],
+			[
+				"kin",
+				"kindermuseum.php"
+			],
+			[
+				"top",
+				"includes/topnav.php"
+			],
+			[
+				"ma",
+				"months/maerz.php"
+			],
+			[
+				"fe",
+				"months/februar.php"
+			],
+			[
+				"jan",
+				"months/januar.php"
+			],
+			[
+				"en.kon",
+				"en.kontakt.php"
+			],
+			[
+				"prog",
+				"programm.php"
+			],
+			[
+				"css",
+				"site.css"
+			],
+			[
+				".css",
+				"site.css"
+			],
+			[
+				"ind",
+				"index.php"
+			],
+			[
+				"kont",
+				"kontakt.php"
+			],
+			[
+				"aus",
+				"australien.php"
+			],
+			[
+				"glo",
+				"globale.php"
+			],
+			[
+				"ser",
+				"service.php"
+			],
+			[
+				"pre",
+				"presse.php"
+			],
+			[
+				"kon",
+				"kontakt.php"
+			],
+			[
+				"ev",
+				"events.js"
+			],
+			[
+				"en.au",
+				"en.australien.php"
+			],
+			[
+				"en.neu",
+				"en.neu.php"
+			],
+			[
+				"res",
+				"restaurant.php"
+			],
+			[
+				"pro",
+				"programm.php"
+			],
+			[
+				"links",
+				"links.php"
+			],
+			[
+				"si",
+				"site.css"
+			],
+			[
+				"serv",
+				"service.php"
+			],
+			[
+				"n",
+				"neu.php"
+			],
+			[
+				"ver",
+				"veranstaltungen.php"
+			],
+			[
+				"bi",
+				"bildung.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"wor",
+				"work_traveller.php"
+			],
+			[
+				"en.foo",
+				"includes/en.footer.php"
+			],
+			[
+				"tra",
+				"traveldiary.php"
+			],
+			[
+				"muse",
+				"museum.php"
+			],
+			[
+				"en.shop",
+				"en.shop.php"
+			],
+			[
+				"shop",
+				"shop.php"
+			],
+			[
+				"en.ser",
+				"en.service.php"
+			],
+			[
+				"sit",
+				"site.css"
+			],
+			[
+				"au",
+				"australien.php"
+			],
+			[
+				"bib",
+				"Bibliothek.php"
+			],
+			[
+				"cal",
+				"jcalendar/css/dp_calendar.css"
+			],
+			[
+				"fie",
+				"ferien.php"
+			],
+			[
+				"ki",
+				"kindermuseum.php"
+			],
+			[
+				"foo",
+				"includes/footer.php"
+			],
+			[
+				"rei",
+				"reisetagebuch.php"
+			],
+			[
+				"news",
+				"news.php"
+			],
+			[
+				"nav",
+				"includes/topnav.php"
+			],
+			[
+				"for",
+				"form.js"
+			],
+			[
+				"museu",
+				"museum.php"
+			],
+			[
+				"form",
+				"form.css"
+			],
+			[
+				"f",
+				"ferien.php"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"indes",
+				"kindermuseum.php"
+			],
+			[
+				"pe",
+				"poetry.php"
+			],
+			[
+				"acc",
+				"accord.js"
+			],
+			[
+				"mutt",
+				"muttertag.php"
+			],
+			[
+				"ne",
+				"neu.php"
+			],
+			[
+				"even",
+				"events.js"
+			],
+			[
+				"j",
+				"jquery.js"
+			],
+			[
+				"progra",
+				"programm.php"
+			],
+			[
+				"aust",
+				"en.australien.php"
+			],
+			[
+				"ensa",
+				"en.sammlung.php"
+			],
+			[
+				"son",
+				"sonderausstellungen.php"
+			],
+			[
+				"samm",
+				"sammlung.php"
+			],
+			[
+				"servic",
+				"service.php"
+			],
+			[
+				"footer",
+				"includes/footer.php"
+			],
+			[
+				"topn",
+				"includes/topnav.php"
+			],
+			[
+				"site",
+				"Publish/site.css"
+			],
+			[
+				"sty",
+				"EHM/starkers-master/style.css"
+			],
+			[
+				"wal",
+				"Publish/walz.php"
+			],
+			[
+				"fer",
+				"Publish/ferien.php"
+			],
+			[
+				"fa",
+				"Publish/familienrecherche.php"
+			],
+			[
+				"bes",
+				"Publish/besucherinfo.php"
+			],
+			[
+				"proce",
+				"Publish/process.php"
+			],
+			[
+				"gelb",
+				"Publish/Gelbe_Schein.php"
+			],
+			[
+				"dat",
+				"Publish/jcalendar/js/date.js"
+			],
+			[
+				"va",
+				"Publish/valentinstag.php"
+			],
+			[
+				"sond",
+				"Publish/sonderausstellungen.php"
+			],
+			[
+				"sonder",
+				"sonderausstellungen.php"
+			],
+			[
+				"run",
+				"Rundgang.html"
+			],
+			[
+				"besucher",
+				"en.besucherinfo.php"
+			],
+			[
+				"servi",
+				"service.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/Work/Waelderhaus-wp/wp-content/themes/wald/wald.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
