@@ -1,0 +1,121 @@
+.startpopups{
+  position: absolute;
+  width: calc(100% + 40px);
+  left:-20px;
+  top: -20px;
+  z-index: 100;
+
+    @media only screen and (max-width:1024px) {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .grid{
+    width: 100%;
+  }
+  .panel-grid{
+    margin:0;
+    width: 100%;
+  }
+  .panel-grid-cell{
+    h3{
+      font-size: 1.4em; 
+      margin-top: 10px;
+      margin-bottom: 8px;
+      line-height: 1em;
+    }
+    h3 > a{
+      font-family: 'taz_semilightregular', Arial, sans-serif;
+      color: $gold;
+    }
+    p{
+      font-family: 'taz_lightregular', Arial, sans-serif;
+      font-size: 1em;
+      margin-top: 0px;
+      line-height: 1.20em;
+      margin-bottom: 0.75em;
+    }
+    a{
+    font:300 1em'taz_semiboldregular', Arial, sans-serif;
+    color: $gold;
+    }
+    a:hover{
+      background-color: $gold;
+      color: white;
+    }
+    .widget{
+  -moz-box-shadow:    inset -10px -10px 25px 0 rgb(180,180,180);
+   -webkit-box-shadow: inset -10px -10px 25px 0 rgb(180,180,180);
+   box-shadow:         inset -10px -10px 25px 0 rgb(180,180,180);
+
+    padding: 0px 20px 10px 20px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    max-height: 130px;
+    overflow: hidden;
+    -webkit-transition: max-height 0.2s;
+    -moz-transition: max-height 0.2s;
+    -o-transition: max-height 0.2s;
+    transition: max-height 0.2s;
+    
+    @media only screen and (max-width:1024px) {
+      padding: 10px 20px!important;
+      max-height: 100%;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
+      -moz-box-shadow:    none;
+      -webkit-box-shadow: none;
+      box-shadow:         none;
+      }
+    }
+    .widget:hover{
+      max-height: 999px;
+      -webkit-transition: max-height 0.2s;
+      -moz-transition: max-height 0.2s;
+      -o-transition: max-height 0.2s;
+      transition: max-height 0.2s;
+      @media only screen and (max-width:1024px) {
+      max-height: 100%;
+      min-height: 100%;
+      }
+    }
+  }
+
+
+  .panel-grid-cell:hover{
+    max-height: 850px;
+    -webkit-transition: max-height 0.75s;
+    -moz-transition: max-height 0.75s;
+    -o-transition: max-height 0.75s;
+    transition: max-height 0.75s; 
+  }
+  .panel-grid-cell:first-child{
+
+    @media only screen and (max-width:1024px) {
+      margin-right:0px;
+    }
+  }
+  .panel-grid-cell:last-child{
+
+    @media only screen and (max-width:1024px) {
+      margin-left:0px;
+    }
+  }
+}
+
+
+
+  .popspacer{
+    height:120px;
+    position:relative;
+    overflow:visible;
+        @media only screen and (max-width:1024px) {
+          height: auto;
+          overflow: hidden;
+          background-color: white;
+    }
+  }

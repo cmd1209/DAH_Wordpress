@@ -1,5 +1,5 @@
 <?php
-/* Template Name: 2Col-Template
+/* Template Name: 3Col-Template
 */ 
 ?>
 <?php get_header(); ?>
@@ -36,49 +36,53 @@
 </div>
 
 
-<!-- section -->
+	
+	<!-- section -->
 	<section role="main">
 		<div class="offset">
 		</div>
 	
-<?php if ( is_page(array('presse','')) ) { ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
-<?php the_content(); ?>
-<div class="grid">
-	<div class="grid-70">
-		<?php the_field('col1'); ?>
-	</div>
-	<div class="grid-30">
-		<?php the_field('col2'); ?>	
-	</div>
-</div>
-<br class="clear">
-<?php edit_post_link(); ?>
-</article>
-
-<?php } else { ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
-<?php if (have_posts()): while (have_posts()) : the_post(); ?>
-<?php the_content(); ?>
-<div class="grid">
-	<div class="grid-cell">
-		<?php the_field('col1'); ?>
-	</div>
-	<div class="grid-cell">
-		<?php the_field('col2'); ?>	
-	</div>
-</div>
-<br class="clear">
-<?php edit_post_link(); ?>
-</article>
-	<?php endwhile; ?>
+	
+	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+	
+		<!-- article -->
+		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		
+			<?php the_content(); ?>
+
+<div class="grid">
+	<div class="grid-cell">
+		<?php the_field('col1'); ?>
+	</div>
+	<div class="grid-cell">
+		<?php the_field('col2'); ?>
+	</div>
+	<div class="grid-cell">
+		<?php the_field('col3'); ?>	
+	</div>
+</div>
+
+			
+			<br class="clear">
+			
+			<?php edit_post_link(); ?>
+			
+		</article>
+		<!-- /article -->
+		
+	<?php endwhile; ?>
+	
+	<?php else: ?>
+	
+		<!-- article -->
+		<article>
+			
+			<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+			
+		</article>
+		<!-- /article -->
+	
 	<?php endif; ?>
-<?php } ?>
-
-
 	
 	</section>
 	<!-- /section -->

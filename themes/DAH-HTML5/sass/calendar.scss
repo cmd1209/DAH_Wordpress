@@ -1,0 +1,370 @@
+/* These styles provide a minimal degree of styling, allowing most theme defaults to be dominant. */
+.mc-main .details {
+  background: $lightsiver;
+  border: 1px solid $silver;
+}
+.mc-main.mini .mini-event {
+  background: #fff;
+  border: 1px solid #000;
+  padding: 5px;
+}
+.mc-main.mini .mini-event .details {
+  background: none;
+  border: none;
+}
+/* That's the end of all colors set (or set and removed) in this style sheet. */
+.mc-main caption {
+  margin: 2px 0;
+  font-weight:700;
+  padding:2px;
+}
+.mc-main .my-calendar-date-switcher {
+  padding: 4px;
+  margin: 0 0 10px;
+}
+.mc-main .my-calendar-date-switcher input, .mc-main .my-calendar-date-switcher label, .mc-main .my-calendar-date-switcher select {
+  margin: 0;
+  padding: 0;
+}
+.mc-main .my-calendar-date-switcher .button {
+  font-size: .9em;
+}
+.mc-main table {
+  width:100%;
+  line-height:1.2;
+  border-collapse:collapse;
+}
+.mc-main td {
+  background-color: $lightsiver;
+  vertical-align:top;
+  text-align:left;
+  width:13%;
+  height:70px;
+  border: 1px solid white;
+  padding:2px!important;
+}
+.mini td {
+  height: auto!important;
+}
+.mc-main th {
+  text-align: center;
+  padding: 5px 0!important;
+  letter-spacing: 1px;
+}
+.mc-main th abbr {
+  border-bottom: none;
+}
+.mc-main h3, .mc-main h3 a {
+  display: block;
+  border-radius: 2px;
+  font: 400 10px 'Open Sans', Arial, sans-serif;
+  margin:3px 0;
+  padding:0;
+  width: 100%;
+  clear: none;
+  color: $gold;
+}
+.mc-main h3 a { text-decoration: none; }
+.mc-main h3 a:hover, .mc-main h3 a:focus { text-decoration: underline; }
+.mc-main h3 img {
+  vertical-align: middle;
+  margin: 0 3px 0 0!important;
+}
+.mc-main .mc-list h3 img {
+  vertical-align: middle;
+}
+.mc-main .list-event h3 {
+  font-size:1.2em;
+  margin:0;
+}
+.mc-main .calendar-event .details, .mc-main .calendar-events {
+  display: none;
+  position:fixed;
+  top: 50%;
+  margin-top: -10%;
+  left: 50%;
+  margin-left: -25%;
+  width:50%;
+  padding:20px;
+  z-index:998;
+  -moz-box-shadow:    0 12px 30px -5px black;
+  -webkit-box-shadow: 0 12px 30px -5px black;
+  box-shadow:         0 12px 30px -5px black;
+}
+.mc-main .details .close {
+  position: absolute;
+  z-index:999;
+  top: -16px;
+  right: -16px;
+  width: 32px!important;
+  height: 32px!important;
+}
+.mc-main .details .close:hover {
+  opacity: 0.75;
+}
+.mc-main .calendar-events {
+  width: 200px!important;
+  left: 0px;
+}
+.mc-main .list-event .details {
+  margin:5px 0;
+  padding:5px 5px 0;
+}
+.mc-main .mc-list {
+  margin: 0;
+  padding: 0;
+}
+.mc-main .mc-list li {
+  padding:5px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.mc-main .mc-date {
+  display:block;
+  margin:-2px -2px 2px;
+  padding:1px;
+  color: $darkgrey;
+  font-size: 0.9em;
+  a{
+    color: $gold;
+  }
+}
+.mc-main th {
+  font-size:.8em;
+  text-transform:uppercase;
+  padding:2px 4px 2px 0;
+}
+.mc-main .category-key {
+  padding: 5px;
+  margin: 5px 0;
+}
+.mc-main .category-key ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.mc-main .category-key li {
+  margin: 2px 10px;
+}
+.mc-main .category-key span {
+  margin-right:5px;
+  vertical-align:middle;
+}
+.mc-main .category-key .no-icon {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+
+.mc-list li {
+  text-indent:0;
+  margin:0;
+  padding:0;
+}
+
+.mc-main .calendar-event .event-time, .mc-main .list-event .event-time {
+  display:block;
+  height:100%;
+  margin-right:10px;
+  margin-bottom:10px;
+  font-weight:700;
+  font-size:.9em;
+}
+
+.mc-main p {
+  line-height:1.5;
+  margin:0 0 1em;
+  padding:0;
+}
+
+.mc-main .vcard {
+  font-size:.9em;
+  margin:10px 0;
+}
+
+.mc-main .calendar-event .vcard {
+  margin:0 0 10px;
+}
+.mc-main { position: relative; }
+.mc-main img { border: none; }
+.category-color-sample img {
+  margin-right: 5px;
+  vertical-align: top;
+}
+
+.mc-main .my-calendar-nav ul {
+  height: 2.95em;
+  margin:0;
+  padding:0;
+}
+.mini .my-calendar-nav ul { height: 2em!important; }
+.mc-main .my-calendar-nav li {float:left;margin: 0 1px; padding: 0;list-style-type: none!important; /* It really is pretty important. */}
+.mc-main .my-calendar-nav li:before { content:''; }
+.mc-main .my-calendar-nav li a {
+  display:block;
+  text-align:center;
+  padding:1px 20px;
+}
+.mini .my-calendar-nav li a {
+  padding: 1px 3px!important;
+  font-size: .7em;
+}
+.mc-main .my-calendar-next {
+  margin-left: 4px;
+  text-align:right;
+}
+.mc-main.mini .my-calendar-date-switcher label {
+  display: block;
+  float: left;
+  width: 6em;
+}
+.mc-main.mini .my-calendar-date-switcher { padding: 4px; }
+.mc-main.mini td .category-icon { display: none; }
+.mc-main.mini h3 { font-size: 1.1em; }
+.mc-main.mini .day-with-date span, .mc-main.mini .day-with-date a {
+  font: .9em 'Open Sans', Arial, sans-serif;
+  padding:1px;
+  text-align: center;
+}
+.mc-main .mini-event .sub-details {
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+  padding: 2px 0 0;
+  margin-bottom: 5px;
+
+}
+.mc-main .mini-event .details img {
+  width: 100%;
+}
+.mc-main.mini .day-with-date a {
+  display: block;
+  margin: -2px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.mini td { height: auto!important; }
+.mini .my-calendar-nav ul { height: 2em!important; }
+.mini .my-calendar-nav li a {
+  padding: 1px 3px!important;
+  font-size: .7em;
+}
+.mc-main .nextmonth {
+  background-color: white;
+  span.mc-date{
+    color: $lightsiver!important;
+  }
+}
+.mc-main .vcard, #mc_event .vcard {
+  font-size: .9em;
+  padding: 10px;
+  float: right;
+}
+.screenreader { position: absolute; left: -999em; }
+
+.future-event, .past-event{
+  p{
+    margin:0 0 0.5em 0;
+  }
+}
+.future-event:last-child, .past-event:last-child{
+  border-bottom: none;
+}
+.future-event:first-child, .past-event:first-child{
+  padding: 0;
+}
+.day-heading, .weekend-heading{
+  font: .9em 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  color: $darkgrey;
+}
+.my-calendar-date-switcher, .mc-time, .mc-format, .category-key, .mc_bottomnav, .mc-print{
+  display: none;
+}
+.my-calendar-header{
+  ul{
+    width: 100%;
+  }
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.my-calendar-next{
+  float: right!important;
+  a{
+    padding: 0!important;
+    color: $gold;
+    font: .9em 'Open Sans', Arial, sans-serif;
+  }
+}
+.my-calendar-prev{
+  text-align: left;
+  a{
+    padding: 0!important;
+    color: $gold;
+    font: .9em 'Open Sans', Arial, sans-serif;
+  }
+}
+td.current-day{
+  background-color: $lightgold;
+}
+.widget_my_calendar_upcoming_widget{
+  ul{padding: 0!important;}
+}
+
+ul.upcoming-events{
+  padding-left: 0px;
+  li{
+  padding: 10px;
+  position: relative;
+  }
+}
+.triangle{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid $silver;
+  border-right: 20px solid white;
+}
+.event{
+  background-color: $lightsiver;
+  padding: 10px 25px 10px 10px;
+  position: relative;
+  margin-bottom: 10px;
+  overflow: hidden;
+  -moz-box-shadow:    0 12px 10px -6px $silver;
+  -webkit-box-shadow: 0 12px 10px -6px $silver;
+  box-shadow:         0 12px 10px -6px $silver;
+  .thumbnail-wrapper{
+    width: 16%;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    float: left;
+    margin: 10px;
+    img{
+    width: 100%;
+    }
+  }
+  .mehr{
+    margin-top: -15px!important;
+    color: $gold;
+    font-weight: 400;
+    font-size: 0.9em!important;
+  }
+    p{
+      margin: 0 0 1em 0;
+  }
+  .short{
+    padding: 0 0 10px 0;    
+  }
+  .long{
+    background-color: $lightsiver;
+    padding: 10px 0 10px 0;
+    border-top: 1px solid white;
+    display: none;
+  }
+}

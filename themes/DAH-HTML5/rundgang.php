@@ -1,0 +1,25 @@
+<?php
+/* Template Name: rundgang-Template
+*/ 
+?>
+<?php get_header(); ?>
+
+
+<div class="pageheadline">
+<div class="pheadline-inside">
+	<h1><?php the_title(); ?></h1>
+</div>
+</div>
+
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
+<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+<?php the_content(); ?>
+</article>
+
+	<?php endwhile; ?>
+		
+	<?php endif; ?>
+
+
+
+<?php get_footer(); ?>

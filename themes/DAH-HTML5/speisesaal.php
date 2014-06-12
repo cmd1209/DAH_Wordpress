@@ -1,17 +1,15 @@
 <?php
-/* Template Name: 2Col-Template
+/* Template Name: speisesaal-Template
 */ 
 ?>
 <?php get_header(); ?>
 
-<?php if ( '' != get_the_post_thumbnail() ) { ?> <!-- checks if keyvisual is present -->
-<div class="keyvisual">
-	<?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
-</div>
-	<?php  } else { ?>
-<div class="nokeyvisual">
-</div>
-<?php  } ?>  
+<div class="keyvisual" id="slideshow">
+	<div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal01.jpg"></img></div>
+	<div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal02.jpg"></img></div>
+	<div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal03.jpg"></img></div>
+	<div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal04.jpg"></img></div>
+</div> 
 
 <div class="pageheadline">
 <div class="pheadline-inside">
@@ -37,27 +35,7 @@
 
 
 <!-- section -->
-	<section role="main">
-		<div class="offset">
-		</div>
-	
-<?php if ( is_page(array('presse','')) ) { ?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
-<?php the_content(); ?>
-<div class="grid">
-	<div class="grid-70">
-		<?php the_field('col1'); ?>
-	</div>
-	<div class="grid-30">
-		<?php the_field('col2'); ?>	
-	</div>
-</div>
-<br class="clear">
-<?php edit_post_link(); ?>
-</article>
-
-<?php } else { ?>
+<section role="main">
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>	
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
@@ -76,7 +54,6 @@
 	<?php endwhile; ?>
 		
 	<?php endif; ?>
-<?php } ?>
 
 
 	

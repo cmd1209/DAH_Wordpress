@@ -1,0 +1,100 @@
+<?php
+    $ids = array();
+    $pages = get_pages("child_of=".$post->ID);
+    if ($pages) {
+        foreach ($pages as $page) {
+            $ids[] = $page->ID;
+        }
+    }
+    $paged = (get_query_var("paged")) ? get_query_var("paged") : 1;
+    $args = array(
+        "paged" => $paged,
+        "post__in" => $ids,
+        "post_type" => "page"
+    );
+    query_posts($args);
+    if (have_posts()) : while (have_posts()) : the_post(); 
+?>
+    <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+    <h1 class="divisions"><span><?php the_ID(); ?></span></h1>
+    <div class="subarticle" id="<?php the_ID(); ?>">
+    <?php the_content(); ?>
+    </div>
+
+    </article>
+<?php endwhile; ?>
+<?php endif; ?>
+
+<?php wp_reset_query(); ?>
+
+
+
+
+
+
+
+
+    <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+
+        <!-- article -->
+        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+
+            <?php the_content(); ?>
+
+            <?php $mypages = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'post_date', ) );
+
+            foreach( $mypages as $page ) {      
+                $content = $page->post_content;
+        // Get the 2 meta values from the child page
+                $getcol1 = get_post_meta($page->ID, 'col1', true); 
+                $getcol2 = get_post_meta($page->ID, 'col2', true); 
+                $getcol3 = get_post_meta($page->ID, 'col3', true);
+
+                $content = apply_filters( 'the_content', $content );
+                $getcol1 = apply_filters( 'the_content', $getcol1 );
+                $getcol2 = apply_filters( 'the_content', $getcol2 );
+                $getcol3 = apply_filters( 'the_content', $getcol3 );
+
+                ?>
+                <div class="subarticle" id="<?php echo $page->ID; ?>">
+                    <h1 class="divisions"><span><?php echo $page->post_title; ?></span></h1>
+
+          
+                    <div class="entry"><?php echo $content; ?></div>
+
+                    <div class="grid">
+                        <?php if($getcol1 !== '') { ?>
+                        <?php echo "<div class='grid-cell'>". $getcol1."</div>"; ?>
+                        <?php } ?>
+                        <?php if($getcol2 !== '') { ?>
+                        <?php echo "<div class='grid-cell'>". $getcol2."</div>"; ?>
+                        <?php } ?>
+                        <?php if($getcol3 !== '') { ?>
+                        <?php echo "<div class='grid-cell'>". $getcol3."</div>"; ?>
+                        <?php } ?>
+                    </div>
+                </div>
+                <?php
+            }
+            ?>
+
+            <br class="clear">
+            
+            <?php edit_post_link(); ?>
+            
+        </article>
+        <!-- /article -->
+        
+    <?php endwhile; ?>
+    
+<?php else: ?>
+    
+    <!-- article -->
+    <article>
+
+        <h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+
+    </article>
+    <!-- /article -->
+    
+<?php endif; ?>

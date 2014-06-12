@@ -10,6 +10,9 @@
 	-moz-transition: width 0.3s;
 	transition: width 0.3s;
 	-webkit-backface-visibility: hidden;
+	@media only screen and (max-width:1023px) {
+    top:0;
+  	}
 }
 
 .sb-search-input {
@@ -75,7 +78,8 @@
 	z-index: -1;
 }
 
-.sb-icon-search {
+
+.sb-icon-search{
 	margin: 0;
 	color: white;
 	background: $gold;
@@ -89,7 +93,7 @@
 	text-transform: none;
 	-webkit-font-smoothing: antialiased;
 }
-
+	
 /* Open state */
 .sb-search.sb-search-open,
 .no-js .sb-search {
@@ -106,4 +110,40 @@
 .sb-search.sb-search-open .sb-search-submit,
 .no-js .sb-search .sb-search-submit {
 	z-index: 90;
+}
+
+form{
+	padding: 20px;
+	background: $lightsiver;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+   -moz-box-shadow:    0 12px 10px -6px $silver;
+   -webkit-box-shadow: 0 12px 10px -6px $silver;
+   box-shadow:         0 12px 10px -6px $silver;
+   textarea{
+   	border: none;
+   }
+	p{
+		color: black;
+	}
+	input[type="text"]{
+		width: 100%;
+		outline: none;
+		border: none;
+		height: 25px;
+	}
+	input[type="number"], input[type="date"]{
+		outline: none;
+		border: none;
+		height: 25px;
+	}
+	.your-message{
+		width: 100%;
+	}
+	  @media only screen and (max-width:1024px) {
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+  }
 }

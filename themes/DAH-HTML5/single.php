@@ -1,35 +1,32 @@
 <?php get_header(); ?>
 
 <?php if ( '' != get_the_post_thumbnail() ) { ?> <!-- checks if keyvisual is present -->
-<div class="keyvisual">
-	<?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?>
-</div>
-	<?php  } else { ?>
-<div class="nokeyvisual">
-</div>
+<?php if ('' != get_the_post_thumbnail()): ?>
+    <div class="keyvisual">
+     <div class="slides"><?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?></div>
+   </div>	
+ <?php else: ?>
+  <div class="nokeyvisual">
+  </div>	
+  <?php endif ?>	
 <?php  } ?>  
-	
+	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+
+
 	<!-- section -->
 	<section role="main">
 		<div class="offset">
 		</div>
 	
 	
-	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 	
 		<!-- article -->
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-		
-		<div class="grid">
-			<div class="grid-70 L">
-				<h2><?php the_title(); ?></h2>
-				<?php the_content(); ?>				
-			</div>
-			<div class="grid-30 R">
-				<h2 class="post_cat"><?php the_category(); ?></h2>
-				<div class="post_highlights"><?php the_field('post_highlights'); ?></div>
-			</div>
-		</div>
+	<div class="article-header">
+		<h1 class="article-title"><?php the_title(); ?></h1>
+		<p><strong><?php the_field('subheadline'); ?></strong></p>
+	</div>	
+	<?php the_content(); ?>				
 
 <br class="clear">
 		

@@ -35,9 +35,7 @@
          url('Taz/tazlight-webfont.svg#taz_lightregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 @font-face {
     font-family: 'taz_semiboldregular';
     src: url('Taz/tazsemibold-webfont.eot');
@@ -47,7 +45,6 @@
          url('Taz/tazsemibold-webfont.svg#taz_semiboldregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
  @font-face {
@@ -66,22 +63,60 @@ input,
 textarea 			{ /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
 
 h1{
-    font:300 3em 'taz_lightregular', Arial, sans-serif;
+    font:400 3.5em 'taz_hair14regular', Arial, sans-serif;
     color: white;
     text-transform: uppercase;
 }
-address{
-    font:300 1.75em 'taz_semiboldregular', Arial, sans-serif;
+  h1.divisions{
+    font:300 2em 'taz_lightregular', Arial, sans-serif;
+    color: $silver;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: white;
+    span{
+      position: relative;
+      background-color: white;
+      padding: 10px;
+    }
+  }
+  h1.article-title{
+    margin-top: 30px;
+    font:300 2em 'taz_lightregular', Arial, sans-serif;
     color: $gold;
+  }
+h2{
+    font-family: 'taz_semilightregular';
+    font-weight: 300;
+    color: $darkgrey;
+    font-size: 1.5em;
+}
+h3, h4, h2.wp-table-reloaded-table-name, .my-calendar-month{
+    font-family: 'taz_semilightregular';
+    font-weight: 300;
+    color: $gold;
+    font-size: 1.3em;
+}
+address{
+    font:300 1.75em 'taz_lightregular', Arial, sans-serif;
+    color: $gold!important;
     padding: 40px;
     text-align: center;
     text-transform: uppercase;
+    border-bottom: 1px dotted $silver;
+    border-top: 1px dotted $silver;
 }
-.wp-table-reloaded-table-name, h3{
-    font:300 1.25em 'taz_semiboldregular', Arial, sans-serif!important;
-    text-align: left !important;
-    text-transform: none !important;
-    color: $blue !important;
+.redbanner{
+  background-color:$red;
+  padding:20px;
+  color:white;
+  font-weight: 400;
+  width: 85%;
+  float: right;
+  margin-top: -100px;
+  margin-right: -25px;
+  transform:rotate(-9deg);
+  -ms-transform:rotate(-9deg); /* IE 9 */
+  -webkit-transform:rotate(-9deg); /* Opera, Chrome, and Safari */
 }
 .wp-table-reloaded{
     width: 100%;
@@ -90,11 +125,15 @@ address{
     box-shadow:  0 12px 10px -6px $silver;
     border-collapse: none!important;
     border-spacing: 2px!important;
-
-    font-family: 'Open Sans';
-    font-size: 0.9em;
-    font-weight: 400;
-
+    font-size: 0.95em!important;
+    h2{
+      margin-top: 0!important;
+    }
+    td{
+        padding: 5px!important;
+    }
+}
+.prices{
     tr:nth-child(even) {
         background: rgb(225,225,225);
         td.column-2{
@@ -107,17 +146,86 @@ address{
         background-color: rgb(180,159,104);
         }
     }
-    td{
-        padding: 5px!important;
-    }
     td.column-1{
+        font-weight: 300;
         width: 75%;
-        color: $blue;
     }
     td.column-2{
         width: 25%;
-        font-weight: 600;
+        font-weight: 400;
         color: white !important;
         text-align: right !important;
     }
+}
+.library{
+  td.column-1, td.column-2, td.column-3{
+    width: 33.333%;
+    color: white;
+    text-align: left!important;
+    font-weight: 400 !important;
+    }
+  td.column-2{
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+  }
+  tr:nth-child(even) {
+    border-top: 1px solid white;
+    background: $gold;
+  }
+  tr:nth-child(odd) {
+    background: $gold;
+  }
+}
+.facts{
+  td.column-1{
+    width: 40%;
+    color: $darkgrey;
+    border-right: 1px solid #DBDBDB;
+    }
+  td.column-2{
+    width: 60%;
+    color: $darkgrey !important;
+    text-align: left !important;
+    }
+  tr:nth-child(even) {
+    border-bottom: 1px solid #DBDBDB;
+    border-top: 1px solid #DBDBDB;
+    background: #F7F7F7;
+    td.column-2{
+      color: $darkgrey;
+      background-color: #F5F5F5;
+    }
+  }
+  tr:nth-child(odd) {
+    background: #FFF;
+    td.column-2{
+      color: $darkgrey;
+      background-color: #FCFCFC;
+    }
+  }
+}
+.normal{
+  td.column-1{
+    width: 40%;
+    color: $darkgrey;
+    }
+  td.column-2, td.column-3, td.column-4{
+    width: 20%;
+    color: $darkgrey !important;
+    text-align: left !important;
+    }
+  td{
+    border-right: 1px solid #DBDBDB;
+  }
+  td:last-child{
+    border-right: none;
+  }
+  tr:nth-child(even) {
+    border-bottom: 1px solid #DBDBDB;
+    border-top: 1px solid #DBDBDB;
+    background: #F7F7F7;
+  }
+  tr:nth-child(odd) {
+    background: #FFF;
+  }
 }

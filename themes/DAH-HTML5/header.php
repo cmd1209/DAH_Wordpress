@@ -10,7 +10,6 @@
 		<!-- meta -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width,initial-scale=1.0">
-		<meta name="description" content="<?php bloginfo('description'); ?>">
 		
 		<!-- icons -->
 		<link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
@@ -27,27 +26,28 @@
 		</script>
 	</head>
 	<body <?php body_class(); ?>>
-	
-		<!-- wrapper -->
+		<div class="hub wrapper">
+			<?php wp_nav_menu( array('menu' => 'slidenav' )); ?>
+		</div>
 		<div class="wrapper">
+			<a class="slidetrigger" href="#">&#9776;</a>
 			<div class="logo">
 				<a href="<?php echo home_url(); ?>">
 					<img src="<?php echo get_template_directory_uri(); ?>/art/DAH-Logo.svg" alt="Logo" class="logo-img coolshadow">
 				</a>
 			</div>
 	
-			<!-- header -->
+
 			<header class="header" role="banner">
 				
-					<!-- nav -->
+
 					<nav class="nav" role="navigation">
 						<?php wp_nav_menu( array('menu' => 'service menu' )); ?>
 						<?php wp_nav_menu( array('menu' => 'main nav' )); ?>
 					</nav>
-					<!-- /nav -->
 
-			<?php get_template_part('searchform'); ?>
-			
+
+			<?php get_template_part('searchform'); ?>		
 			</header>
 		<div class="content">  <!-- start content area -->
 			<!-- /header -->
