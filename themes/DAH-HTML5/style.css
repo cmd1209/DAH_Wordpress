@@ -134,7 +134,7 @@ address {
   .wp-table-reloaded h2 {
     margin-top: 0 !important; }
   .wp-table-reloaded td {
-    padding: 5px !important; }
+    padding: 10px !important; }
 
 .prices tr:nth-child(even) {
   background: #e1e1e1; }
@@ -1181,7 +1181,7 @@ a.flex-prev {
   top: 70px;
   left: 50%;
   width: 125px;
-  margin-left: -648px;
+  margin-left: -660px;
   background-color: #ae9962; }
   @media only screen and (max-width: 1279px) {
     .stickymenu {
@@ -1210,15 +1210,6 @@ a.flex-prev {
     background-color: #0f0f4b; }
   .stickymenu .selected {
     background-color: #0f0f4b; }
-
-.stickymenu:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  border-bottom: 28px solid #7c6730;
-  border-left: 28px solid transparent;
-  position: absolute;
-  top: -28px; }
 
 .rundganginfo {
   overflow: hidden;
