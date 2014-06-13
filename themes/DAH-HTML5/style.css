@@ -1123,11 +1123,17 @@ a.slidetrigger {
 .rundgangslider {
   border-bottom: 5px solid #ae9962;
   background-color: white; }
+  .rundgangslider strong {
+    color: #ae9962;
+    border-bottom: 1px solid #ae9962; }
   .rundgangslider .caption-wrap {
-    padding: 20px 50px;
+    padding: 20px 20px;
     position: relative !important;
     background-color: white !important;
     font-weight: 400 !important; }
+    .rundgangslider .caption-wrap h2 {
+      margin-bottom: 10px !important;
+      line-height: 1.15em; }
     .rundgangslider .caption-wrap h3 {
       color: #2b2b2b !important;
       margin-top: 0;
