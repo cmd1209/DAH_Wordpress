@@ -1,15 +1,10 @@
 <?php get_header(); ?>
 
-<?php if ( '' != get_the_post_thumbnail() ) { ?> <!-- checks if keyvisual is present -->
-<?php if ('' != get_the_post_thumbnail()): ?>
-    <div class="keyvisual">
-     <div class="slides"><?php echo get_the_post_thumbnail( $post_id, $size, $attr ); ?></div>
-   </div>	
- <?php else: ?>
+
   <div class="nokeyvisual">
   </div>	
-  <?php endif ?>	
-<?php  } ?>  
+
+
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 
@@ -29,8 +24,8 @@
 	<?php the_content(); ?>				
 
 <br class="clear">
-		
-		</article>
+
+</article>
 		<!-- /article -->
 		
 	<?php endwhile; ?>

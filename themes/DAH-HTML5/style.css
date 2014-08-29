@@ -33,35 +33,30 @@
   src: url("Taz/tazhair14_-webfont.eot?#iefix") format("embedded-opentype"), url("Taz/tazhair14_-webfont.woff") format("woff"), url("Taz/tazhair14_-webfont.ttf") format("truetype"), url("Taz/tazhair14_-webfont.svg#taz_hair14regular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'taz_semilightregular';
   src: url("Taz/tazsemilight-webfont.eot");
   src: url("Taz/tazsemilight-webfont.eot?#iefix") format("embedded-opentype"), url("Taz/tazsemilight-webfont.woff") format("woff"), url("Taz/tazsemilight-webfont.ttf") format("truetype"), url("Taz/tazsemilight-webfont.svg#taz_semilightregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'taz_lightregular';
   src: url("Taz/tazlight-webfont.eot");
   src: url("Taz/tazlight-webfont.eot?#iefix") format("embedded-opentype"), url("Taz/tazlight-webfont.woff") format("woff"), url("Taz/tazlight-webfont.ttf") format("truetype"), url("Taz/tazlight-webfont.svg#taz_lightregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'taz_semiboldregular';
   src: url("Taz/tazsemibold-webfont.eot");
   src: url("Taz/tazsemibold-webfont.eot?#iefix") format("embedded-opentype"), url("Taz/tazsemibold-webfont.woff") format("woff"), url("Taz/tazsemibold-webfont.ttf") format("truetype"), url("Taz/tazsemibold-webfont.svg#taz_semiboldregular") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 @font-face {
   font-family: 'fontello';
   src: url("iconfont/fontello.eot?41320862");
   src: url("iconfont/fontello.eot?41320862#iefix") format("embedded-opentype"), url("iconfont/fontello.woff?41320862") format("woff"), url("iconfont/fontello.ttf?41320862") format("truetype"), url("iconfont/fontello.svg?41320862#fontello") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 input,
 textarea {
   /* We strongly recommend you declare font-weight using numerical values, but check to see which weights you're exporting first */ }
@@ -81,6 +76,10 @@ h1.divisions {
     position: relative;
     background-color: white;
     padding: 10px; }
+
+.text-widget h1.divisions {
+  margin: 0;
+  padding-bottom: 0; }
 
 h1.article-title {
   margin-top: 30px;
@@ -358,7 +357,7 @@ form {
     margin: 0;
     width: 100%; }
   .startpopups .panel-grid-cell h3 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 10px;
     margin-bottom: 8px;
     line-height: 1em; }
@@ -383,9 +382,9 @@ form {
     box-shadow: inset -10px -10px 25px 0 #b4b4b4;
     padding: 0px 20px 10px 20px;
     background-color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     max-height: 130px;
     overflow: hidden;
     -webkit-transition: max-height 0.2s;
@@ -434,6 +433,72 @@ form {
       height: auto;
       overflow: hidden;
       background-color: white; } }
+
+.startfields {
+  padding: 10px 10px 0 10px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
+  background-color: white; }
+  @media only screen and (max-width: 1024px) {
+    .startfields {
+      width: 100%;
+      position: relative; } }
+  .startfields .grid {
+    width: 100%; }
+  .startfields .panel-grid {
+    margin: 0;
+    margin-bottom: -20px;
+    width: 100%; }
+  .startfields .panel-grid-cell figure {
+    padding-left: 5px;
+    float: right;
+    width: 33.333%; }
+    @media only screen and (max-width: 780px) {
+      .startfields .panel-grid-cell figure {
+        width: 100%; } }
+    .startfields .panel-grid-cell figure img {
+      width: 100%; }
+  .startfields .panel-grid-cell .startthumb {
+    width: 33%;
+    height: auto;
+    float: right;
+    margin: 0 0 10px 10px; }
+    @media only screen and (max-width: 1024px) {
+      .startfields .panel-grid-cell .startthumb {
+        width: 100%;
+        height: auto; } }
+    @media only screen and (max-width: 780px) {
+      .startfields .panel-grid-cell .startthumb {
+        width: 30%;
+        height: auto; } }
+  .startfields .panel-grid-cell h3 {
+    font-size: 1.1em;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    line-height: 1.1em; }
+  .startfields .panel-grid-cell h3 > a {
+    font-family: 'taz_semilightregular', Arial, sans-serif;
+    color: #ae9962; }
+  .startfields .panel-grid-cell p {
+    font-family: 'taz_lightregular', Arial, sans-serif;
+    font-size: 0.95em;
+    margin-top: 0px;
+    line-height: 1.20em;
+    margin-bottom: 0.75em; }
+  .startfields .panel-grid-cell a {
+    font: 300 1em "taz_semiboldregular", Arial, sans-serif;
+    color: #ae9962; }
+  .startfields .panel-grid-cell a:hover {
+    background-color: #ae9962;
+    color: white; }
+  .startfields .panel-grid-cell .mehrlesen {
+    display: block;
+    margin-bottom: 20px; }
+  .startfields .panel-grid-cell .widget {
+    padding: 0px 10px;
+    overflow: hidden; }
 
 /* These styles provide a minimal degree of styling, allowing most theme defaults to be dominant. */
 .mc-main .details {
@@ -823,6 +888,17 @@ ul.upcoming-events {
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.4), transparent);
+  background-image: -moz-linear-gradient(left, transparent, rgba(0, 0, 0, 0.4), transparent);
+  background-image: -ms-linear-gradient(left, transparent, rgba(0, 0, 0, 0.4), transparent);
+  background-image: -o-linear-gradient(left, transparent, rgba(0, 0, 0, 0.4), transparent); }
+
+hr:last-child {
+  display: none; }
+
 body {
   font: 300 1em/1.6em 'Open Sans', Arial, sans-serif;
   background-color: #0f0f4b;
@@ -975,6 +1051,7 @@ a.slidetrigger {
     z-index: 999;
     display: none;
     position: absolute;
+    left: 0;
     white-space: nowrap;
     padding: 10px 0;
     margin: 8px 0 0 0;
@@ -984,7 +1061,8 @@ a.slidetrigger {
     @media only screen and (max-width: 1023px) {
       #menu-main-nav .sub-menu {
         left: -50%;
-        text-align: center; } }
+        text-align: center;
+        margin-left: -10px; } }
     @media only screen and (max-width: 760px) {
       #menu-main-nav .sub-menu {
         display: none; } }
@@ -1036,8 +1114,12 @@ a.slidetrigger {
     margin: 0 0 0 -10px; }
     @media only screen and (max-width: 1023px) {
       #menu-service-menu .sub-menu {
-        left: -50%;
-        text-align: center; } }
+        width: 120px;
+        left: 50%;
+        margin-left: -60px;
+        text-align: center;
+        background-color: #0f0f4b;
+        padding: 10px; } }
     @media only screen and (max-width: 760px) {
       #menu-service-menu .sub-menu {
         display: none; } }
@@ -1046,6 +1128,10 @@ a.slidetrigger {
       display: inline-block;
       white-space: nowrap;
       text-align: left; }
+      @media only screen and (max-width: 1023px) {
+        #menu-service-menu .sub-menu li {
+          display: list-item;
+          text-align: center; } }
     #menu-service-menu .sub-menu a {
       color: #ae9962;
       font-size: 0.9em;
@@ -1127,7 +1213,7 @@ a.slidetrigger {
     color: #ae9962;
     border-bottom: 1px solid #ae9962; }
   .rundgangslider .caption-wrap {
-    padding: 20px 20px;
+    padding: 20px 90px;
     position: relative !important;
     background-color: white !important;
     font-weight: 400 !important; }
@@ -1142,23 +1228,37 @@ a.slidetrigger {
       font-size: 1.8em !important;
       font-family: "taz_lightregular", Arial, sans-serif !important; }
     .rundgangslider .caption-wrap .caption {
-      font-size: 0.95em !important;
-      color: #2b2b2b !important;
-      font-weight: 400 !important; }
+      color: #2b2b2b !important; }
+      .rundgangslider .caption-wrap .caption p {
+        font-size: 1.125em !important;
+        line-height: 1.4em !important;
+        font-weight: 400 !important;
+        column-count: 2;
+        -moz-column-count: 2;
+        /* Firefox */
+        -webkit-column-count: 2;
+        /* Safari and Chrome */ }
+
+.flex-direction-nav a {
+  background-image: none;
+  font-size: 70px;
+  text-indent: 0;
+  font-weight: 700;
+  padding: 10px; }
+
+.flex-direction-nav a:visited {
+  color: white; }
 
 a.flex-next, a.flex-prev {
-  margin-top: -6%;
-  background-color: #ae9962 !important;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  border: 3px solid #ae9962; }
+  margin-top: -8%; }
 
 a.flex-next {
-  background-position: -32px -1px !important; }
+  content: "Next";
+  right: 30px !important; }
 
 a.flex-prev {
-  background-position: -2px -1px !important; }
+  content: "Previous";
+  left: 0 !important; }
 
 .nokeyvisual {
   width: 1280px;
@@ -1279,6 +1379,14 @@ a.flex-prev {
   .pageheadline a:hover {
     color: #0f0f4b; }
 
+.speiselogo {
+  position: absolute;
+  top: -8px;
+  right: 80px; }
+  @media only screen and (max-width: 1023px) {
+    .speiselogo {
+      display: none; } }
+
 .offset {
   width: 100%;
   height: 0px; }
@@ -1286,6 +1394,13 @@ a.flex-prev {
 .anchorlink {
   position: absolute;
   margin: -110px 0 0 0; }
+
+li.archiv-list {
+  padding: 5px 0 5px 10px;
+  margin: 0;
+  background-color: #e6e7e8;
+  border-bottom: 1px solid #bec0c2;
+  list-style: none; }
 
 .subarticle {
   position: relative;
@@ -1309,13 +1424,13 @@ section {
   border-bottom: 5px solid #ae9962;
   width: 100%;
   padding: 40px 90px 40px 90px; }
-  @media only screen and (max-width: 1023px) {
+  @media only screen and (max-width: 759px) {
     section {
-      padding: 5px 10px 10px 10px; } }
+      padding: 5px 15px 10px 15px; } }
 
 section.darksection {
   border-bottom: 5px solid #ae9962;
-  background-color: rgba(0, 0, 0, 0); }
+  background-color: transparent; }
   section.darksection p {
     color: #ae9962;
     font-weight: 400; }
@@ -1356,6 +1471,9 @@ aside {
     /* Safari and Chrome */
     -moz-columns: 200px 3;
     /* Firefox */ }
+  @media only screen and (max-width: 1023px) {
+    .footer li {
+      text-align: center; } }
   .footer a {
     font: 300 1em "taz_semiboldregular", Arial, sans-serif;
     color: #ae9962; }
@@ -1421,6 +1539,79 @@ aside {
     flex-basis: 100%;
     -webkit-flex-basis: 100%; } }
 
+.sonderausstellung {
+  width: 100%;
+  background-color: #e6e7e8;
+  overflow: hidden;
+  line-height: 1em;
+  position: relative; }
+  .sonderausstellung header {
+    width: 100%;
+    background-color: #0f0f4b;
+    margin: 0 0 10px 0; }
+    .sonderausstellung header h2 {
+      color: white;
+      text-align: center;
+      display: block;
+      padding: 10px;
+      margin: 0;
+      text-transform: uppercase; }
+  .sonderausstellung .year {
+    background-color: rgba(174, 153, 98, 0.95);
+    color: white;
+    width: 20%;
+    margin: 0 0 10px -10px;
+    padding: 2px 2px 2px 10px;
+    font-weight: 600;
+    font-size: 0.8em; }
+  .sonderausstellung .hero {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ae9962; }
+    .sonderausstellung .hero a:hover {
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */ }
+    .sonderausstellung .hero .cat {
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      background-color: rgba(174, 153, 98, 0.95);
+      color: white;
+      width: 75%;
+      padding: 2px 2px 2px 10px;
+      font-weight: 400;
+      font-size: 0.8em; }
+    .sonderausstellung .hero img {
+      position: absolute;
+      top: -15%;
+      width: 100%;
+      height: auto; }
+  .sonderausstellung .sonderarcive {
+    width: 25%;
+    float: left;
+    margin: 40px 10px 20px -10px;
+    position: relative; }
+  .sonderausstellung .title {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 0.8em;
+    overflow: hidden; }
+    .sonderausstellung .title a {
+      color: #0f0f4b; }
+    .sonderausstellung .title a:hover {
+      color: #ae9962; }
+  .sonderausstellung .excerpt {
+    padding: 0 10px 10px 10px;
+    font-weight: 400;
+    font-size: 0.8em; }
+  .sonderausstellung .border {
+    border-bottom: 1px solid #bec0c2; }
+
 .grid-cell {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
@@ -1434,7 +1625,7 @@ aside {
 
 .grid-cell:first-child {
   margin-right: 20px; }
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 940px) {
     .grid-cell:first-child {
       margin-right: 0px; } }
 
@@ -1471,14 +1662,26 @@ aside {
 .col {
   float: left; }
 
+.col15 {
+  width: 15%; }
+
 .col25 {
   width: 25%; }
+
+.col33 {
+  width: 33.333%; }
+  @media only screen and (max-width: 768px) {
+    .col33 {
+      width: 100%; } }
 
 .col50 {
   width: 50%; }
   @media only screen and (max-width: 768px) {
     .col50 {
       width: 100%; } }
+
+.col85 {
+  width: 85%; }
 
 .col75 {
   width: 75%; }
@@ -1740,7 +1943,6 @@ a img.aligncenter {
 
   @page {
     margin: 0.5cm; }
-
   p,
   h2,
   h3 {

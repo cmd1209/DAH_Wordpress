@@ -3,11 +3,11 @@
 
 <?php if (is_page(array('speisesaal'))): ?>
   <div class="keyvisual" id="slideshow">
-  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal01.jpg"></img></div>
-  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal02.jpg"></img></div>
-  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal03.jpg"></img></div>
-  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/02/Speisesaal04.jpg"></img></div>
-</div> 	
+  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/06/Speisesaal05.jpg"></img></div>
+  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/06/Speisesaal06.jpg"></img></div>
+  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/06/Speisesaal07.jpg"></img></div>
+  <div class="slides"><img src="<?php echo home_url(); ?>/wp-content/uploads/2014/06/Speisesaal08.jpg"></img></div>
+</div>
 <?php else: ?>
   <?php if ('' != get_the_post_thumbnail()): ?>
     <div class="keyvisual">
@@ -21,6 +21,10 @@
 
 <div class="pageheadline">
 	<div class="pheadline-inside">
+  <?php if (is_page(array('speisesaal'))): ?>
+    <img src="http://dah-bremerhaven.de/wp-content/uploads/2012/11/speisesaal_logo.png" height="2036" width="149" class="speiselogo" alt="">   
+  <?php endif ?>
+
 		<h1><?php the_title(); ?></h1>
 		<ul>
       <?php $anchorlinks = get_pages( array( 'child_of' => $post->ID, 'sort_column' => 'menu_order')); foreach ($anchorlinks as $page): ?>

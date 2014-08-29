@@ -187,7 +187,7 @@
 			"file": "DAH-HTML5/page.php",
 			"settings":
 			{
-				"buffer_size": 7570,
+				"buffer_size": 3146,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,7 +211,7 @@
 			"file": "DAH-HTML5/single.php",
 			"settings":
 			{
-				"buffer_size": 969,
+				"buffer_size": 949,
 				"line_ending": "Unix"
 			}
 		},
@@ -219,7 +219,7 @@
 			"file": "DAH-HTML5/sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 18286,
+				"buffer_size": 22826,
 				"line_ending": "Unix"
 			}
 		},
@@ -227,7 +227,7 @@
 			"file": "DAH-HTML5/sass/startpopups.scss",
 			"settings":
 			{
-				"buffer_size": 2485,
+				"buffer_size": 2721,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +235,7 @@
 			"file": "DAH-HTML5/sass/search.scss",
 			"settings":
 			{
-				"buffer_size": 1937,
+				"buffer_size": 2596,
 				"line_ending": "Unix"
 			}
 		},
@@ -243,7 +243,7 @@
 			"file": "DAH-HTML5/sass/typo.scss",
 			"settings":
 			{
-				"buffer_size": 5695,
+				"buffer_size": 6197,
 				"line_ending": "Unix"
 			}
 		},
@@ -251,7 +251,7 @@
 			"file": "DAH-HTML5/js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 5506,
+				"buffer_size": 2650,
 				"line_ending": "Unix"
 			}
 		}
@@ -283,7 +283,7 @@
 				"Snippet: <?php echo htmlentities(…) ?>"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -614,7 +614,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7570,
+						"buffer_size": 3146,
 						"regions":
 						{
 						},
@@ -652,8 +652,12 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								361,
+								361
+							],
+							[
+								560,
+								560
 							]
 						],
 						"settings":
@@ -663,10 +667,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 70.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -710,15 +714,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 969,
+						"buffer_size": 949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								889,
-								889
+								0,
+								0
 							]
 						],
 						"settings":
@@ -730,7 +734,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -739,7 +743,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18286,
+						"buffer_size": 22826,
 						"regions":
 						{
 						},
@@ -762,7 +766,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -771,7 +775,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2485,
+						"buffer_size": 2721,
 						"regions":
 						{
 						},
@@ -789,7 +793,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 15.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -801,7 +805,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1937,
+						"buffer_size": 2596,
 						"regions":
 						{
 						},
@@ -821,7 +825,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -830,7 +834,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5695,
+						"buffer_size": 6197,
 						"regions":
 						{
 						},
@@ -852,7 +856,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -861,7 +865,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5506,
+						"buffer_size": 2650,
 						"regions":
 						{
 						},
@@ -880,7 +884,7 @@
 						"translation.y": 1633.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]

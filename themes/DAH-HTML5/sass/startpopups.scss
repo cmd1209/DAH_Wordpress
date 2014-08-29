@@ -20,7 +20,7 @@
   }
   .panel-grid-cell{
     h3{
-      font-size: 1.4em; 
+      font-size: 1.2em; 
       margin-top: 10px;
       margin-bottom: 8px;
       line-height: 1em;
@@ -51,9 +51,9 @@
 
     padding: 0px 20px 10px 20px;
     background-color: white;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
     max-height: 130px;
     overflow: hidden;
     -webkit-transition: max-height 0.2s;
@@ -119,3 +119,88 @@
           background-color: white;
     }
   }
+
+
+
+
+
+.startfields{
+  padding: 10px 10px 0 10px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+    @media only screen and (max-width:1024px) {
+    width: 100%;
+    position: relative;
+  }
+  .grid{
+    width: 100%;
+  }
+  .panel-grid{
+    margin:0;
+    margin-bottom:-20px;
+    width: 100%;
+  }
+  .panel-grid-cell{
+    figure{
+      padding-left:5px;
+      float: right;
+      width: 33.333%;
+        @media only screen and (max-width:780px) {
+          width: 100%;
+        }
+      img{
+        width: 100%;
+      }
+    }
+    .startthumb{
+      width:33%;
+      height: auto;
+      float:right;
+      margin:0 0 10px 10px;
+          @media only screen and (max-width:1024px) {
+          width: 100%;
+          height: auto;
+        }
+          @media only screen and (max-width:780px) {
+          width: 30%;
+          height: auto;
+        }
+    }
+    h3{
+      font-size: 1.1em; 
+      margin-top: 10px;
+      margin-bottom: 8px;
+      line-height: 1.1em;
+    }
+    h3 > a{
+      font-family: 'taz_semilightregular', Arial, sans-serif;
+      color: $gold;
+    }
+    p{
+      font-family: 'taz_lightregular', Arial, sans-serif;
+      font-size: 0.95em;
+      margin-top: 0px;
+      line-height: 1.20em;
+      margin-bottom: 0.75em;
+    }
+    a{
+    font:300 1em'taz_semiboldregular', Arial, sans-serif;
+    color: $gold;
+    }
+    a:hover{
+      background-color: $gold;
+      color: white;
+    }
+    .mehrlesen{
+      display: block;
+      margin-bottom:20px;
+    }
+    .widget{
+    padding: 0px 10px;
+    overflow: hidden;
+    }
+  }
+}
